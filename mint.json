@@ -46,6 +46,7 @@
       "pages": [
         "essentials/create-project",
         "essentials/secret-key",
+        "essentials/package",
         "essentials/fragments",
         "essentials/hallucination-dash",
         "essentials/playground"
