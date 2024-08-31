@@ -58,6 +58,17 @@
       ]
     },
     {
+      "group": "Supported SDK's",
+      "pages": [
+        "OpenAI",
+        "Gemini",
+        "Anthropic",
+        "Groq",
+        "HuggingFace",
+        "Cohere"
+      ]
+    },
+    {
       "group": "Essentials",
       "pages": [
         "essentials/markdown",

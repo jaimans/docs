@@ -1,0 +1,50 @@
+---
+title: 'HuggingFace'
+description: 'Integrate with HuggingFace inference using OpenSesame'
+---
+
+Step 1. Install the OpenSesame SDK:
+
+<CodeGroup>
+
+```bash python 
+pip install opensesame-sdk
+```
+
+</CodeGroup>
+
+Step 2. Set up the OpenSesame_huggingface client and add API keys. This connects to the serverless inference API
+
+<CodeGroup>
+
+```python 
+
+from opensesame import OpenSesame_huggingface
+
+client = OpenSesame_huggingface({
+   "hf_api_token":"your_huggingface_api_token",
+   "open_sesame_key":'your_opensesame_api_key',
+   "Project_name":'your_opensesame_project_name' # Ensure this is correct
+   })  
+
+
+
+```
+</CodeGroup>
+
+Step 3. Make a request to the HuggingFace API
+
+<CodeGroup>
+```python 
+
+response = client.generate_text(
+       model_name="gpt2",
+       prompt="user prompt"
+   )
+
+print(response[0][“generated_text”])
+
+
+```
+
+</CodeGroup>
