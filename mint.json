@@ -18,7 +18,7 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:support@opensesame.dev"
+      "url": "mailto:jai@opensesame.dev"
     }
   ],
   "topbarCtaButton": {
@@ -52,28 +52,13 @@
       ]
     },
     {
-      "group": "Essentials",
+      "group": "OpenSesame Product Demo",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
-      ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "essentials/create-project",
+        "essentials/secret-key",
+        "essentials/fragments",
+        "essentials/hallucination-dash",
+        "essentials/playground"
       ]
     }
   ],
