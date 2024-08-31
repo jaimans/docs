@@ -40,17 +40,7 @@
         "quickstart"
       ]
     },
-    {
-      "group": "Supported SDKs",
-      "pages": [
-        "OpenAI",
-        "Gemini",
-        "Anthropic",
-        "Groq",
-        "HuggingFace",
-        "Cohere"
-      ]
-    },
+    
     {
       "group": "OpenSesame Product Demo",
       "pages": [
@@ -59,6 +49,17 @@
         "essentials/fragments",
         "essentials/hallucination-dash",
         "essentials/playground"
+      ]
+    },
+    {
+      "group": "Supported Model SDKs",
+      "pages": [
+        "OpenAI",
+        "Gemini",
+        "Anthropic",
+        "Groq",
+        "HuggingFace",
+        "Cohere"
       ]
     }
   ],
