@@ -5,7 +5,7 @@
     "dark": "images/oslogowhite.png",
     "light": "images/oslogo.png"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "images/favicon.ico",
   "colors": {
     "primary": "#5e17eb",
     "light": "#9c4df1",
