@@ -22,8 +22,8 @@
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.opensesame.dev"
+    "name": "OpenSesame Web",
+    "url": "https://opensesame.dev"
   },
   "tabs": [
     {
