@@ -2,8 +2,8 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "OpenSesame Package Docs",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "images/oslogowhite.png",
+    "light": "images/oslogo.png"
   },
   "favicon": "/favicon.svg",
   "colors": {
@@ -31,30 +31,13 @@
       "url": "api-reference"
     }
   ],
-  "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://opensesame.dev/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://opensesame.dev/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://opensesame.dev/blog"
-    }
-  ],
+  "anchors": [],
   "navigation": [
     {
       "group": "Get Started",
       "pages": [
         "introduction",
-        "quickstart",
-        "development"
+        "quickstart"
       ]
     },
     {
