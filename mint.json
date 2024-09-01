@@ -60,7 +60,8 @@
         "Anthropic",
         "Groq",
         "HuggingFace",
-        "Cohere"
+        "Cohere",
+        "AzureOpenAI"
       ]
     }
   ],
