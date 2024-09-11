@@ -1,0 +1,38 @@
+---
+title: 'Quick Start'
+description: 'Get started with the OpenSesame Python SDK'
+---
+
+Step 1. Install the OpenSesame SDK:
+
+<CodeGroup>
+
+```bash python 
+pip install opensesame-sdk
+```
+
+</CodeGroup>
+
+Step 2. Set up the OpenSesame client, add API key and project name
+
+<CodeGroup>
+
+```python 
+
+from opensesame import OpenSesame
+
+os = OpenSesame(
+        open_sesame_key = "your_open_sesame_api_key",
+        project_name = "your_project_name"
+    )
+
+# Your code to generate the LLM response
+
+os.evaluate(prompt="The user prompt", answer="The LLM response")
+```
+
+</CodeGroup>
+
+All calls to OpenSesame are made Async so it will not slow down your code execution.
+
+
