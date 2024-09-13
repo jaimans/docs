@@ -56,14 +56,14 @@
       "group": "Supported Model SDKs",
       "pages": [
         "quick start",
-        "langchain",
         "OpenAI",
         "Gemini",
         "Anthropic",
         "Groq",
         "HuggingFace",
         "Cohere",
-        "AzureOpenAI"
+        "AzureOpenAI",
+        "langchain"
       ]
     }
   ],
