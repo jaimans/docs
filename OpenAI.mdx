@@ -10,6 +10,10 @@ Step 1. Install the OpenSesame SDK:
 ```bash python 
 pip install opensesame-sdk
 ```
+```bash Javascript 
+npm i opensesame-sdk
+
+```
 
 </CodeGroup>
 
@@ -17,7 +21,7 @@ Step 2. Set up the OpenSesame_openai client and add API keys
 
 <CodeGroup>
 
-```python 
+```bash python 
 
 from opensesame import OpenSesame_openai
 
@@ -27,14 +31,30 @@ client = OpenSesame_openai({
     ‘project_name’ : ‘open_sesame_project_name’ # Ensure this is correct
     })
 ```
+```bash Javascript 
 
+const OpenSesame = require('opensesame-sdk');
+
+// Replace this code (your OpenAI client)
+const openai = new OpenAI(
+       apiKey: 'your OpenAI key here',
+    );
+
+// With this: your OpenSesame client
+const opensesame = new OpenSesame({
+      apiKey: 'your OpenAI key here',
+      openSesameKey: 'your OpenSesame key',
+      projectName: 'your desired project name'
+    });
+
+```
 </CodeGroup>
 
 Step 3. Make a request just like the OpenAI sdk
 
 <CodeGroup>
 
-```python 
+```bash python 
 
 response = client.chat.completions.create(
     model = “gpt-3.5-turbo”,

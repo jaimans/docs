@@ -10,6 +10,9 @@ Step 1. Install the OpenSesame SDK:
 ```bash python 
 pip install opensesame-sdk
 ```
+```bash Javascript 
+npm i opensesame-gemini
+```
 
 </CodeGroup>
 
@@ -17,7 +20,7 @@ Step 2. Set up the OpenSesame_gemini client and add API keys
 
 <CodeGroup>
 
-```python 
+```bash python 
 
 from opensesame import OpenSesame_gemini
 
@@ -28,12 +31,28 @@ client = OpenSesame_gemini({
     })
 
 ```
+```bash Javascript 
+
+const OpenSesame = require('opensesame-gemini');
+
+// Replace this code (your Gemini client)
+const genAI = new GoogleGenerativeAI(process.env.API_KEY);
+
+// with this :
+const opensesame = new OpenSesame({
+      apiKey: 'your Google API key here',
+      openSesameKey: 'your OpenSesame key',
+      projectName: 'your desired project name'
+    });
+
+```
+
 </CodeGroup>
 
 Step 3. Make a request just like the Gemini sdk
 
 <CodeGroup>
-```python 
+```bash python 
 
 model = client.GenerativeModel(model_name = “gemini-1.5-pro”)
 response = model.generate_content(prompt = “User prompt”)
@@ -42,5 +61,6 @@ response = model.generate_content(prompt = “User prompt”)
 print(response.text)
 
 ```
+
 
 </CodeGroup>
