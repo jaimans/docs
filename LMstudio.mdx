@@ -1,6 +1,6 @@
 ---
 title: 'LMstudio'
-description: 'Integrate with LMstudio using OpenSesame'
+description: 'Integrate with LMstudio using OpenSesame when running LLMs locally'
 ---
 
 Before proceeding ensure you have LMstudio installed and the local server is running.
@@ -50,7 +50,6 @@ response = client.ChatCompletions(client).create(
     )
 
 print(response["choices"][0]["message"]["content"])
-
 ```
 
 </CodeGroup>
