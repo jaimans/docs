@@ -1,0 +1,56 @@
+---
+title: 'LMstudio'
+description: 'Integrate with LMstudio using OpenSesame'
+---
+
+Before proceeding ensure you have LMstudio installed and the local server is running.
+
+Step 1. Install the OpenSesame SDK:
+
+<CodeGroup>
+
+```bash python 
+pip install opensesame-sdk
+```
+
+</CodeGroup>
+
+Step 2. Set up the OpenSesame_lmstudio client, add API keys and optionally your local port for the LMstudio server
+
+<CodeGroup>
+
+```bash python 
+
+from opensesame import OpenSesame_lmstudio
+
+config = {
+    "open_sesame_key": "your_open_sesame_key",
+    "project_name": "your_project_name",
+    "port": 1234  # Optional, defaults to 1234 if not specified
+    }
+```
+
+</CodeGroup>
+
+Step 3. Make a request to OpenSesame_lmstudio
+
+<CodeGroup>
+
+```bash python 
+
+messages = [
+        {"role": "system", "content": "You are a helpful assistant."},
+        {"role": "user", "content": "User query"}
+    ]
+
+response = client.ChatCompletions(client).create(
+        messages=messages,
+        temperature=0.7,
+        max_tokens=-1
+    )
+
+print(response["choices"][0]["message"]["content"])
+
+```
+
+</CodeGroup>

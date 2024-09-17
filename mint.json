@@ -63,7 +63,8 @@
         "Groq",
         "HuggingFace",
         "Cohere",
-        "AzureOpenAI"
+        "AzureOpenAI",
+        "LMstudio"
       ]
     }
   ],
