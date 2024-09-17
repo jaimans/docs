@@ -56,7 +56,6 @@
       "group": "Supported Model SDKs",
       "pages": [
         "quick start",
-        "langchain",
         "OpenAI",
         "Gemini",
         "Anthropic",
@@ -64,7 +63,8 @@
         "HuggingFace",
         "Cohere",
         "AzureOpenAI",
-        "LMstudio"
+        "LMstudio",
+        "langchain"
       ]
     }
   ],
