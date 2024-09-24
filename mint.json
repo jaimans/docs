@@ -22,8 +22,8 @@
     }
   ],
   "topbarCtaButton": {
-    "name": "OpenSesame Web",
-    "url": "https://opensesame.dev"
+    "name": "Login/Signup to OpenSesame",
+    "url": "https://app.opensesame.dev"
   },
   "tabs": [
     {
