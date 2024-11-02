@@ -44,16 +44,16 @@
     {
       "group": "OpenSesame Product Demo",
       "pages": [
-        "essentials/create-project",
-        "essentials/secret-key",
-        "essentials/package",
-        "essentials/fragments",
-        "essentials/hallucination-dash",
-        "essentials/playground"
+        "essentials/create-prompt",
+        "essentials/authenticate-tools",
+        "essentials/testing-agents",
+        "essentials/outputs",
+        "essentials/json",
+        "essentials/fact-check"
       ]
     },
     {
-      "group": "Supported Model SDKs",
+      "group": "Model SDKs (Older Hallucination Tool)",
       "pages": [
         "quick start",
         "OpenAI",
