@@ -53,6 +53,11 @@
       ]
     },
     {
+      "group": "OpenSesame Endpoint Production",
+      "pages": [
+        "essentials/endpoints"
+    },
+    {
       "group": "Model SDKs (Older Hallucination Tool)",
       "pages": [
         "quick start",
