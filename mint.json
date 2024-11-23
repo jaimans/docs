@@ -40,7 +40,6 @@
         "quickstart"
       ]
     },
-    
     {
       "group": "OpenSesame Product Demo",
       "pages": [
@@ -56,9 +55,9 @@
       "group": "OpenSesame Endpoint Production",
       "pages": [
         "essentials/endpoints"
-        ]
-    },
-  
+      ]
+    }
+  ],
   "footerSocials": {
     "x": "https://x.com/opensesame_dev",
     "linkedin": "https://www.linkedin.com/company/opensesame1"
