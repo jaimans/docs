@@ -58,21 +58,7 @@
         "essentials/endpoints"
         ]
     },
-    <!-- {
-      "group": "Model SDKs (Older Hallucination Tool)",
-      "pages": [
-        "quick start",
-        "OpenAI",
-        "Gemini",
-        "Anthropic",
-        "Groq",
-        "HuggingFace",
-        "Cohere",
-        "AzureOpenAI",
-        "LMstudio",
-        "langchain"
-      ]
-    } -->
+  
   ],
   "footerSocials": {
     "x": "https://x.com/opensesame_dev",
