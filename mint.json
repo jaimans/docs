@@ -58,7 +58,7 @@
         "essentials/endpoints"
         ]
     },
-    {
+    <!-- {
       "group": "Model SDKs (Older Hallucination Tool)",
       "pages": [
         "quick start",
@@ -72,7 +72,7 @@
         "LMstudio",
         "langchain"
       ]
-    }
+    } -->
   ],
   "footerSocials": {
     "x": "https://x.com/opensesame_dev",
