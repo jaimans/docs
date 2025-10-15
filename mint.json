@@ -45,10 +45,7 @@
       "pages": [
         "essentials/Designing-Cell",
         "essentials/Implementing-API",
-        "essentials/Extras-Testing",
-        "essentials/outputs",
-        "essentials/json",
-        "essentials/fact-check"
+        "essentials/Extras-Testing"
       ]
     },
     {
