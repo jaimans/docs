@@ -43,9 +43,9 @@
     {
       "group": "OpenSesame Product Demo",
       "pages": [
-        "essentials/create-prompt",
-        "essentials/authenticate-tools",
-        "essentials/testing-agents",
+        "essentials/Designing-Cell",
+        "essentials/Implementing-API",
+        "essentials/Extras-Testing",
         "essentials/outputs",
         "essentials/json",
         "essentials/fact-check"
