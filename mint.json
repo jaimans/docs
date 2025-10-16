@@ -5,7 +5,7 @@
     "dark": "images/favicon.png",
     "light": "images/favicon.png"
   },
-  "favicon": "images/favicon.png",
+  "favicon": "images/os-logo.svg",
   "colors": {
     "primary": "#5e17eb",
     "light": "#9c4df1",
