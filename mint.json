@@ -2,10 +2,10 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "OpenSesame Documentation",
   "logo": {
-    "dark": "images/oslogowhite.png",
-    "light": "images/oslogo.png"
+    "dark": "images/favicon.png",
+    "light": "images/favicon.png"
   },
-  "favicon": "images/favicon.svg",
+  "favicon": "images/favicon.png",
   "colors": {
     "primary": "#5e17eb",
     "light": "#9c4df1",
