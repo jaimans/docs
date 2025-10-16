@@ -22,22 +22,16 @@
     }
   ],
   "topbarCtaButton": {
-    "name": "Login/Signup to OpenSesame",
-    "url": "https://app.opensesame.dev"
+    "name": "Get On OpenSesame",
+    "url": "https://cell.dev"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
   "anchors": [],
   "navigation": [
     {
       "group": "Get Started",
       "pages": [
-        "introduction",
-        "quickstart"
+        "index",
+        "essentials/intro"
       ]
     },
     {
