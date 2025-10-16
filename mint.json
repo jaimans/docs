@@ -34,12 +34,6 @@
         "Implementing-API",
         "Extras-Testing"
       ]
-    },
-    {
-      "group": "OpenSesame Endpoint Production",
-      "pages": [
-        "essentials/endpoints"
-      ]
     }
   ],
   "footerSocials": {
