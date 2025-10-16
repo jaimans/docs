@@ -30,9 +30,9 @@
     {
       "group": "Get Started",
       "pages": [
-        "essentials/Designing-Cell",
-        "essentials/Implementing-API",
-        "essentials/Extras-Testing"
+        "Designing-Cell",
+        "Implementing-API",
+        "Extras-Testing"
       ]
     },
     {
