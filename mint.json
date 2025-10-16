@@ -30,13 +30,6 @@
     {
       "group": "Get Started",
       "pages": [
-        "index",
-        "essentials/intro"
-      ]
-    },
-    {
-      "group": "OpenSesame Product Demo",
-      "pages": [
         "essentials/Designing-Cell",
         "essentials/Implementing-API",
         "essentials/Extras-Testing"
