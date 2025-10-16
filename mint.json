@@ -32,7 +32,8 @@
       "pages": [
         "Designing-Cell",
         "Implementing-API",
-        "Extras-Testing"
+        "Extras-Testing",
+        "Embedding"
       ]
     }
   ],
