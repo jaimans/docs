@@ -1,0 +1,64 @@
+---
+title: "Embedding Your Cell"
+description: "Embed your agent via a single script tag"
+---
+
+
+Once your Cell is built and tested, you can embed it directly into your product using the configuration tools provided. OpenSesame supports both **Automatic** and **Manual** configuration modes, along with three framework options: **HTML**, **Next.js**, and **React Native**.
+
+![Screenshot 2025-10-16 at 11.36.20 AM.png](/images/Screenshot2025-10-16at11.36.20AM.png)
+
+### 1. Automatic Configuration
+
+Automatic configuration provides a pre-generated code snippet that includes your Cell ID and placeholders for user data. You can copy this snippet and paste it directly into your app.
+
+**Steps:**
+
+1. Select **Automatic Configuration**.
+2. Choose your preferred framework (HTML, Next.js, or React Native).
+3. Copy the provided code and paste it into your application file (for example, `index.html`).
+4. Replace placeholders such as `{userId}` or `{companyId}` with real values before deploying.
+
+**Important:** Replace the placeholders (like `{userId}`) with your actual values before using this code.
+
+This method is the fastest way to get a Cell running. Once embedded, your Cell appears at the bottom of your interface and can be used immediately by your users.
+
+![Screenshot 2025-10-16 at 11.36.25 AM.png](/images/Screenshot2025-10-16at11.36.25AM.png)
+
+### 2. Manual Configuration
+
+Manual configuration allows you to fine-tune how your Cell looks and behaves. You can adjust color themes, layout, and size directly in the configuration object.
+
+You can edit fields such as:
+
+- `primaryColor`, `secondaryColor`, and `accentColor`
+- `placeholderText` (for example “What can I do for you?”)
+- `borderRadius`, `defaultWidth`, and `bottomMargin`
+- `dictation`, `glowEnabled`, and `borderEnabled`
+
+This gives you full control over the appearance and placement of your Cell within your application.
+
+### 3. Additional Parameters — Simple Guide
+
+**What it is:**\
+Additional Parameters are used to automatically include required values, such as customer IDs or company IDs, in every API call your Cell makes.
+
+**How it works:**\
+You can define key-value pairs in the configuration UI (for example `customer_id: 12345`). These parameters are automatically included in all API calls your Cell makes to your connected services.
+
+**Example:**
+
+- **Without additional parameters:**\
+  The user must say, “Show me invoices for customer 12345.”
+- **With additional parameters:**\
+  You define `customer_id: 12345` in the configuration. Now the user only needs to say “Show me my invoices,” and the Cell automatically includes the ID.
+
+This is especially useful for ensuring the correct **userId** or **account context** is always included when your Cell interacts with APIs.
+
+### 4. Deployment
+
+Once configured, save and redeploy your application. The Cell loads automatically wherever you include the snippet. You can test the integration in Preview Mode to confirm that your Cell connects correctly and displays as expected.
+
+Your Cell is now live and fully embedded into your product.
+
+---
