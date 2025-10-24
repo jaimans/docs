@@ -16,7 +16,12 @@ To add your endpoints:
 
 ![Screenshot 2025-10-15 at 4.34.02 PM.png](/images/Screenshot2025-10-15at4.34.02PM.png)
 
-3. Add your **Base URL**, **authentication tokens**, or **additional parameters** if required.
+3. **Add your Base URL, authentication tokens, or additional parameters if required.**
+
+   > **Note:**\
+   > When setting up for testing, you may use a single static auth token. This is fine for quick verification.\
+   > However, this **should not be used in your live embed**, since auth tokens often expire.\
+   > For production, replace the static token with a **runtime variable** (for example `${authToken}`) so your application dynamically injects a fresh token whenever the Cell loads. This ensures users remain authenticated and prevents token expiry issues during use.
 4. Once uploaded, OpenSesame automatically detects your endpoints and lists them in the panel.
 
 ![Screenshot 2025-10-15 at 4.34.45 PM.png](/images/Screenshot2025-10-15at4.34.45PM.png)
